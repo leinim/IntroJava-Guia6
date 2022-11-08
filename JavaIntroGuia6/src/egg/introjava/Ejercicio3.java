@@ -1,3 +1,5 @@
+package egg.introjava;
+
 /*
 Define variables donde puedas alojar los resultados y prueba 
 usar dos operadores de cada tipo.

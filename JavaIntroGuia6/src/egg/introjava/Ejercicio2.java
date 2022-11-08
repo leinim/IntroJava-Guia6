@@ -1,3 +1,5 @@
+package egg.introjava;
+
 /*
 ¿Recuerdas las variables que creaste en el ejercicio anterior? 
 Ahora deberás asignarles un valor.
