@@ -23,9 +23,7 @@ public class Ejercicio3 {
         boolean pregunta1 = suma >= resta;
         boolean pregunta2 = num2 == suma;
         num1--;
-        num2++;
-        
-        
+        num2++;  
     }
     
 }
