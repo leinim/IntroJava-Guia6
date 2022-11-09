@@ -1,4 +1,4 @@
-package egg.introjava;
+package egg.introjava.manosalaobra;
 
 /*
 Define variables donde puedas alojar los resultados y prueba 

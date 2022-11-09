@@ -2,7 +2,7 @@
 Define una variable de tipo boolean, double y char. 
 Guarda información en ellas a través del Scanner.
  */
-package egg.introjava;
+package egg.introjava.manosalaobra;
 import java.util.Scanner;
 /**
  *

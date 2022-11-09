@@ -2,7 +2,7 @@
 Define una variable que aloje tu nombre y otra que guarde tu edad. 
 Imprime ambas variables por pantalla.
  */
-package egg.introjava;
+package egg.introjava.manosalaobra;
 
 /**
  *

@@ -1,4 +1,4 @@
-package egg.introjava;
+package egg.introjava.manosalaobra;
 
 /*
 ¿Recuerdas las variables que creaste en el ejercicio anterior? 

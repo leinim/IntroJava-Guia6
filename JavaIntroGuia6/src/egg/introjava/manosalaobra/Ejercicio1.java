@@ -1,4 +1,4 @@
-package egg.introjava;
+package egg.introjava.manosalaobra;
 
 /*
 Crear un proyecto de Java y definir al menos 
