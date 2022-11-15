@@ -6,7 +6,7 @@ cuadrado tiene 4 elementos por lado se deberá dibujar lo siguiente:
 *     *
 * * * *
  */
-package egg.introjava.manosalaobra;
+package Ejercicios;
 
 import java.util.Scanner;
 
