@@ -36,7 +36,7 @@ public class Ejercicio16 {
         j=0;
         for (i = 0; i < tam; i++) {
             if (vector[i]==buscar ) {
-                cont +=1;
+                cont += 1;
                 j=i;    
             }
          }
