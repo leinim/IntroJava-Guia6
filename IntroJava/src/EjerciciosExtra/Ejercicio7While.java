@@ -6,6 +6,8 @@ bucle “while” y otra con el bucle “do - while”.
  */
 package EjerciciosExtra;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Mile
@@ -17,6 +19,40 @@ public class Ejercicio7While {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner leer = new Scanner(System.in);
+        int N, num, maximo, minimo, cont, suma;
+        float promedio;
+        
+        System.out.println("Ingrese la cantidad de números");
+        N = leer.nextInt();  
+        
+        while (N < 1) {
+           System.out.println("Ingrese la cantidad de números");
+           N = leer.nextInt();
+        }
+        
+        
+        maximo = 0;
+        minimo = 0;
+        cont = 0;
+        suma = 0;
+        System.out.println("Ingrese " + N + " números");
+            num = leer.nextInt();
+            minimo = num;
+        for (int i = 2; i <= N; i++) {
+            num = leer.nextInt();
+            cont += 1;
+            suma += num;
+            if (maximo < num) {
+                maximo = num;
+            }
+            if (minimo > num) {
+                minimo = num;
+            }
+        }
+        promedio = suma / cont;
+        System.out.println("Máximo=" + maximo + "; Mínimo=" + minimo 
+                + "; Promedio=" + promedio);
     }
     
 }
