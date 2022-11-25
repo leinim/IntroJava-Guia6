@@ -20,12 +20,12 @@ public class Ejercicio9 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
-        String frase;
+        String frase, longi;
         
         System.out.println("Ingrese una frase o palabra");
         frase = leer.nextLine().toUpperCase();
-        
-        if (frase.substring(0, 1).equals("A")) {
+        longi = frase.substring(0, 1);
+        if (longi.equals("A")) {
             System.out.println("Correcto");
         }else {
             System.out.println("Incorrecto");
